@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2mod\rbac\models;
+namespace thefx\rbac\models;
 
 use Yii;
 use yii\base\Model;
@@ -9,7 +9,7 @@ use yii\rbac\Rule;
 /**
  * Class BizRuleModel
  *
- * @package yii2mod\rbac\models
+ * @package thefx\rbac\models
  */
 class BizRuleModel extends Model
 {

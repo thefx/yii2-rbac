@@ -1,14 +1,14 @@
 <?php
 
-namespace yii2mod\rbac\controllers;
+namespace thefx\rbac\controllers;
 
 use yii\rbac\Item;
-use yii2mod\rbac\base\ItemController;
+use thefx\rbac\base\ItemController;
 
 /**
  * Class RoleController
  *
- * @package yii2mod\rbac\controllers
+ * @package thefx\rbac\controllers
  */
 class RoleController extends ItemController
 {

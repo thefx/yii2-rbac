@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2mod\rbac\filters;
+namespace thefx\rbac\filters;
 
 use Yii;
 use yii\base\Action;
@@ -11,7 +11,7 @@ use yii\helpers\Url;
 /**
  * Class AccessControl
  *
- * @package yii2mod\rbac\filters
+ * @package thefx\rbac\filters
  */
 class AccessControl extends \yii\filters\AccessControl
 {

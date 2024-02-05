@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2mod\rbac\tests;
+namespace thefx\rbac\tests;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -45,7 +45,7 @@ class TestCase extends \PHPUnit\Framework\TestCase
             'vendorPath' => $this->getVendorPath(),
             'modules' => [
                 'rbac' => [
-                    'class' => 'yii2mod\rbac\Module',
+                    'class' => 'thefx\rbac\Module',
                 ],
             ],
             'components' => [
@@ -58,7 +58,7 @@ class TestCase extends \PHPUnit\Framework\TestCase
                     'defaultRoles' => ['guest', 'user'],
                 ],
                 'user' => [
-                    'identityClass' => 'yii2mod\rbac\tests\data\User',
+                    'identityClass' => 'thefx\rbac\tests\data\User',
                 ],
                 'request' => [
                     'hostInfo' => 'http://domain.com',

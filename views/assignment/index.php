@@ -8,7 +8,7 @@ use yii\widgets\Pjax;
 /* @var $this \yii\web\View */
 /* @var $gridViewColumns array */
 /* @var $dataProvider \yii\data\ArrayDataProvider */
-/* @var $searchModel \yii2mod\rbac\models\search\AssignmentSearch */
+/* @var $searchModel \thefx\rbac\models\search\AssignmentSearch */
 
 $this->title = Yii::t('yii2mod.rbac', 'Assignments');
 $this->params['breadcrumbs'][] = $this->title;

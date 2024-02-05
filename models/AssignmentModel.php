@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2mod\rbac\models;
+namespace thefx\rbac\models;
 
 use Yii;
 use yii\base\BaseObject;
@@ -10,7 +10,7 @@ use yii\web\IdentityInterface;
 /**
  * Class AssignmentModel
  *
- * @package yii2mod\rbac\models
+ * @package thefx\rbac\models
  */
 class AssignmentModel extends BaseObject
 {

@@ -1,5 +1,5 @@
 {
-    "name": "yii2mod/yii2-rbac",
+    "name": "thefx/yii2-rbac",
     "description": "RBAC management module for Yii2",
     "keywords": [
         "yii2",
@@ -28,6 +28,7 @@
         "yiisoft/yii2-jui": "~2.0"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest",
         "friendsofphp/php-cs-fixer": "~2.0",
         "phpunit/phpunit": "~6.0"
     },

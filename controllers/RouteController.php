@@ -1,17 +1,17 @@
 <?php
 
-namespace yii2mod\rbac\controllers;
+namespace thefx\rbac\controllers;
 
 use Yii;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
 use yii\web\Response;
-use yii2mod\rbac\models\RouteModel;
+use thefx\rbac\models\RouteModel;
 
 /**
  * Class RouteController
  *
- * @package yii2mod\rbac\controllers
+ * @package thefx\rbac\controllers
  */
 class RouteController extends Controller
 {

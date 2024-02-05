@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model \yii2mod\rbac\models\AuthItemModel */
+/* @var $model \thefx\rbac\models\AuthItemModel */
 
 $context = $this->context;
 $labels = $this->context->getLabels();

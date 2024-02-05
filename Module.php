@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2mod\rbac;
+namespace thefx\rbac;
 
 /**
  * GUI manager for RBAC.
@@ -10,10 +10,10 @@ namespace yii2mod\rbac;
  * ```php
  * 'controllerMap' => [
  *     'assignment' => [
- *         'class' => 'yii2mod\rbac\controllers\AssignmentController',
+ *         'class' => 'thefx\rbac\controllers\AssignmentController',
  *         'userIdentityClass' => 'app\models\User',
  *         'searchClass' => [
- *              'class' => 'yii2mod\rbac\models\search\AssignmentSearch',
+ *              'class' => 'thefx\rbac\models\search\AssignmentSearch',
  *              'pageSize' => 10,
  *         ],
  *         'idField' => 'id',
@@ -37,5 +37,5 @@ class Module extends \yii\base\Module
     /**
      * @var string the namespace that controller classes are in
      */
-    public $controllerNamespace = 'yii2mod\rbac\controllers';
+    public $controllerNamespace = 'thefx\rbac\controllers';
 }

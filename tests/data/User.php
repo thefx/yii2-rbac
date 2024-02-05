@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2mod\rbac\tests\data;
+namespace thefx\rbac\tests\data;
 
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;

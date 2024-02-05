@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2mod\rbac\models;
+namespace thefx\rbac\models;
 
 use Yii;
 use yii\base\Model;

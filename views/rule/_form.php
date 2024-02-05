@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model \yii2mod\rbac\models\BizRuleModel */
+/* @var $model \thefx\rbac\models\BizRuleModel */
 /* @var $form ActiveForm */
 ?>
 

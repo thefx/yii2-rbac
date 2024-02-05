@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2mod\rbac;
+namespace thefx\rbac;
 
 use yii\web\AssetBundle;
 
 /**
  * Class RbacAsset
  *
- * @package yii2mod\rbac
+ * @package thefx\rbac
  */
 class RbacAsset extends AssetBundle
 {

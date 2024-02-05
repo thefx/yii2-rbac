@@ -1,14 +1,14 @@
 <?php
 
-namespace yii2mod\rbac\tests\models;
+namespace thefx\rbac\tests\models;
 
-use yii2mod\rbac\models\RouteModel;
-use yii2mod\rbac\tests\TestCase;
+use thefx\rbac\models\RouteModel;
+use thefx\rbac\tests\TestCase;
 
 /**
  * Class RouteTest
  *
- * @package yii2mod\rbac\tests\models
+ * @package thefx\rbac\tests\models
  */
 class RouteTest extends TestCase
 {

@@ -1,19 +1,19 @@
 <?php
 
-namespace yii2mod\rbac\tests\models;
+namespace thefx\rbac\tests\models;
 
 use Yii;
 use yii\base\Exception;
 use yii\rbac\Item;
-use yii2mod\rbac\models\AssignmentModel;
-use yii2mod\rbac\models\AuthItemModel;
-use yii2mod\rbac\tests\data\User;
-use yii2mod\rbac\tests\TestCase;
+use thefx\rbac\models\AssignmentModel;
+use thefx\rbac\models\AuthItemModel;
+use thefx\rbac\tests\data\User;
+use thefx\rbac\tests\TestCase;
 
 /**
  * Class AssignmentTest
  *
- * @package yii2mod\rbac\tests\models
+ * @package thefx\rbac\tests\models
  */
 class AssignmentTest extends TestCase
 {
